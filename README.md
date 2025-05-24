@@ -1,0 +1,1 @@
+# AIID--Zero-Shot-Detection-of-AI-Generated-Images
