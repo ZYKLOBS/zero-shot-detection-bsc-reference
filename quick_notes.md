@@ -31,3 +31,7 @@ perform correctly. For example, if images are highly compressed or resized (as i
 the case on the web), statistical analysis may not be reliable
 
 Vielleicht das interessanter? 
+
+
+
+

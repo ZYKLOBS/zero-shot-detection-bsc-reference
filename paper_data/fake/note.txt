@@ -1,0 +1,1 @@
+I am pretty sure that the paper uses the same picture for NLL and Entropy mistakenly, therefore this might be the case here
