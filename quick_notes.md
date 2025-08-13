@@ -31,7 +31,13 @@ perform correctly. For example, if images are highly compressed or resized (as i
 the case on the web), statistical analysis may not be reliable
 
 Vielleicht das interessanter? 
+- this suggests
+there may be better ways to exploit the basic NLL(l) and H(l), possibly jointly
+at all levels, to synthesize a better and more stable decision statistics. (Page 13)
 
 
+- 30 datasets  
 
-
+-Future work will focus on making the method robust to
+the most common forms of image impairment, so as to make it suitable for in
+the wild application.
