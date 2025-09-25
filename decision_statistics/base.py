@@ -7,7 +7,6 @@ class BaseDecider(ABC):
     """Abstract interface for decision metrics (deciders)"""
 
     def __init__(self):
-        #Add name here as attribute
         self.name = "you called the abstract decider, this should not happen"
 
     @abstractmethod

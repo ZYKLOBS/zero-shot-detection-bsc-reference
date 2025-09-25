@@ -1,6 +1,8 @@
 from PIL import Image
 import numpy as np
 
+
+"""This script was used for debugging during thesis """
 # Load image
 image = Image.open("paper_data/real/NLL_highres.jpeg")
 img_array = np.array(image)

@@ -7,7 +7,7 @@ def prepare_img_for_interleave(tensor: torch.Tensor) -> Any:
     """
     Average over channels (dim=1) and remove batch dim, to get (H, W) numpy array.
     """
-    return tensor.mean(dim=1).squeeze(0).cpu().numpy()
+    return tensor.mean(dim=1).squeeze(0).cpu()
 
 class SRECDataLoader(BaseLoader):
     def __init__(self):

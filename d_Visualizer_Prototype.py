@@ -48,7 +48,7 @@ def normalize_img(img):
     max_val = np.percentile(img, 99)
     img_clipped = np.clip(img, min_val, max_val)
     return (img_clipped - min_val) / (max_val - min_val + 1e-8)
-# Visualize nll - entropy maps per resolution and subpixel group (grayscale)
+
 for res in range(3):
     fig, axes = plt.subplots(2, 2, figsize=(8, 8), constrained_layout=True)
     fig.suptitle(f"NLL - Entropy Maps — Resolution {res+1} (Subpixel Groups)", fontsize=16)
@@ -69,7 +69,7 @@ for res in range(3):
 
     plt.show()
 
-# Visualize interleaved full nll - entropy maps with smoothing (grayscale)
+
 for res in range(3):
     tl_diff = prepare_img_for_interleave(nll_list[res * 4 + 0]) - prepare_img_for_interleave(entropy_list[res * 4 + 0])
     tr_diff = prepare_img_for_interleave(nll_list[res * 4 + 1]) - prepare_img_for_interleave(entropy_list[res * 4 + 1])
